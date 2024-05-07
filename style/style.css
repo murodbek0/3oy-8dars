@@ -18,8 +18,15 @@ margin: 0 auto;
 .header{
  padding-top: 20px;
  padding-bottom: 20px;
+ transition: all 0.5s;
+ cursor: pointer;
+}
+.header:hover{
+background-color: aqua;
+
 }
 .header__container{
+
  display: flex;
  align-items: center;
  justify-content: space-between;
@@ -131,8 +138,12 @@ margin: 0 auto;
     align-items: center;
     justify-content: space-between;
     margin-top: 200px;
+    cursor: pointer;
   
 }
+
+
+
 .box{
     margin-top: 200px;
     padding-left: 30px;
@@ -162,5 +173,196 @@ margin: 0 auto;
     margin-bottom: 30px;
 }
         
+.pikture1__container{
+    align-items: center;
+    max-width: 1600px;
+    width: 100%;
+} 
+.main1{
+ margin-top: 140px;
+}
+.tex1 h1{
+    width: 526px;
+    height: 58px;
+    top: 1756px;
+    left: 537px;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 57.5px;
+    text-align: left;
+     margin-top:-600px;
+     margin-left:550px;
+    color:#FFFFFF;   
+    transition: all 0.5s;
+}
+.tex1 h1:hover{
+
+ color:rgb(247, 0, 255);
+}
+
+.cardd{
+  
+   display: flex;
+   align-items: center;
+   gap:285px ;
+   flex-wrap: wrap;
+   margin-left: 333px;
+   margin-top:50px;
+   cursor: pointer;
+}
+.romm img{
+ width: 66px;
+ height: 66px;
+}
+.romm h5{
+    width: 108px;
+    height: 31px;
+    top: 1982.98px;
+     left: 323px;
+     opacity: 0.5px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.2px;
+    text-align: left;
+    color:#b3acac;
+    margin-left:-20px;
+  
+
+}
+.romm h5:hover{
+
+    background-color: rgb(173, 185, 191);
+    color: #111010;
+    }
+.romm1 img{
+    width:46px;
+    height:69px;
+    margin-left: 50px;
+   }
+   .romm1 h5{
+    width: 148px;
+    height: 31px;
+    top: 1983px;
+    left: 726px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.2px;
+    text-align: left;
+    color:#b3acac;
+ 
+   
+   }
+   .romm1 h5:hover{
+
+    background-color: rgb(19, 95, 161);
+    color: #efe8e9;
+    }
+.romm2 img{
+    width: 63px;
+    height: 63px;
+   }
+   .romm2 h5{
+    margin-top: 10px;
+    width: 241px;
+    height: 31px;
+    top: 1983px;
+    left: 1088px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.2px;
+    text-align: left; 
+    margin-left:-90px;       
+    color:#b3acac;
+
+     
+   
+   }
+   .romm2 h5:hover{
+
+    background-color: rgb(143, 116, 152);
+    color: #efe6ef;
+    }
+   
+   .romm3 img{
+    margin-top:-300px;
+    width: 68px;
+    height: 68px;
+   }
+   .romm3 h5{
+    margin-left:-10px;
+    width: 106px;
+    height: 31px;
+    top: 2182px;
+    left: 334px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.2px;
+    text-align: left;
+    margin-right:-20px;    
+    color:#b3acac;
+   }
+   .romm3 h5:hover{
+
+    background-color: rgb(108, 136, 18);
+    color: #bfbdba;
+    }
+   .romm4 img{
+    margin-top: -200px;
+    margin-left: 60px;
+    width: 66px;
+    height: 66px;
+   }
+
+   .romm4 h5{
+    margin-left:-50px ;
+    width: 278px;
+    height: 62px;
+    top: 2182px;
+    left: 661px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.2px;
+    text-align: center;
+    color:#b3acac;    
+     
+   
+   }
+   .romm4 h5:hover{
+
+    background-color: rgb(240, 13, 13);
+    color: #0f0f0e;
+    }
+   .romm5 img{
+    margin-left:-60px;
+    width: 66px;
+    height: 66px;
+    margin-top:-500px ;
+   }
+ 
+    
+
+
+   .romm5 h5{
+    
+    margin-left:-120px;
+    width: 183px;
+    height: 31px;
+    top: 2182px;
+    left: 1117px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.2px;
+    text-align: left;
+    color:#b3acac; 
+    cursor: pointer;  
+     
+   
+   }
+.romm5 h5:hover{
+
+background-color: black;
+color: #AE7B3C;
+}
+
 
 
